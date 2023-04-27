@@ -2,6 +2,7 @@ package com.example.demo.models;
 
 import jakarta.persistence.*;
 
+// el entity y el table es para enviar el modelo a la bases de datos
 @Entity
 @Table(name = "usuario")
 public class UsuarioModel {
